@@ -22,4 +22,4 @@ dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker
 systemctl enable docker.service
 
 # Install misc packages
-dnf install -y keepassxc zsh fish
+dnf install -y keepassxc zsh fish thunderbird borgbackup fuse-sshfs python3-fusepy
